@@ -4,7 +4,7 @@
         <div class="form-group row">
             <label for="text" class="col-md-1 col-form-label text-md-left">To Do:</label>
             <div class="col-md-4">
-                <textarea class="form-control pull-left" v-model="note.text" id="text" name="text" rows="5" required autofocus></textarea>
+                <textarea class="form-control pull-left" v-model="note.text" id="text" name="text" rows="5" placeholder="Add text here..." required autofocus></textarea>
             </div>
             
             <label for="date" class="col-md-1 col-form-label text-md-right">Date:</label>
